@@ -7,6 +7,9 @@
 [![Documentation Status](https://legacy.gitbook.com/button/status/book/tfussell/xlnt)](https://tfussell.gitbooks.io/xlnt/content/)
 [![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://opensource.org/licenses/MIT)
 
+## Fork
+This is a fork of the original `xlnt` repository that replaces the faulty `third-party/libstudxml` submodule such that `git submodule update --init --recursive` works as expected.
+
 ## Introduction
 xlnt is a modern C++ library for manipulating spreadsheets in memory and reading/writing them from/to XLSX files as described in [ECMA 376 4th edition](http://www.ecma-international.org/publications/standards/Ecma-376.htm). The first public release of xlnt version 1.0 was on May 10th, 2017. Current work is focused on increasing compatibility, improving performance, and brainstorming future development goals. For a high-level summary of what you can do with this library, see [the feature list](https://tfussell.gitbooks.io/xlnt/content/docs/introduction/Features.html). Contributions are welcome in the form of pull requests or discussions on [the repository's Issues page](https://github.com/tfussell/xlnt/issues).
 
